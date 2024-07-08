@@ -1,10 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Feb 22 21:52:36 2024
+
+@author: ENRG AI Team
+"""
 import unittest
 from src.utils import load_data, preprocess_data, split_data
 
 class TestUtils(unittest.TestCase):
 
     def setUp(self):
-        self.filepath = "../data/SameDirection2.csv"
+        self.filepath = "../data/test_data.csv"
         self.data = load_data(self.filepath)
         self.target_col = "isCherenkov"
         self.drop_cols = ["isCherenkov"]
