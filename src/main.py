@@ -1,4 +1,10 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Created on Thu Feb 22 21:52:36 2024
+
+@author: ENRG AI Team
+"""
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.metrics import accuracy_score, classification_report
