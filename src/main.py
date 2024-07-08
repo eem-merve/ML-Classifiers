@@ -12,7 +12,7 @@ import lightgbm as lgb
 from utils import load_data, preprocess_data, split_data
 
 # Load and preprocess the data
-filepath = "../data/SameDirection2.csv"
+filepath = "../data/data.csv"
 data = load_data(filepath)
 X, y = preprocess_data(data, target_col="isCherenkov", drop_cols=["isCherenkov"])
 X_train, X_test, y_train, y_test = split_data(X, y)
@@ -59,14 +59,4 @@ plt.gca().invert_yaxis()
 plt.savefig('../results/model_accuracies.png', bbox_inches='tight')  # Save the plot as an image file
 plt.close()
 
-# Plot the accuracies as a line plot
-plt.figure(figsize=(10, 6))
-plt.plot(classifier_names, accuracies, marker='o')
-plt.xlabel('Classifier')
-plt.ylabel('Accuracy')
-plt.title('Model Accuracies')
-plt.xticks(rotation=45)
-plt.grid(True)
-plt.tight_layout()
-plt.savefig('../results/model_accuracies_line.png', bbox_inches='tight')  # Save the plot as an image file
-plt.show()
+
