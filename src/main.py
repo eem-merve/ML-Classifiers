@@ -20,7 +20,7 @@ from utils import load_data, preprocess_data, split_data
 # Load and preprocess the data
 filepath = "../data/data.csv"
 data = load_data(filepath)
-X, y = preprocess_data(data, target_col="isCherenkov", drop_cols=["isCherenkov"])
+X, y = preprocess_data(data, target_col="Vector", drop_cols=["Vector"])
 X_train, X_test, y_train, y_test = split_data(X, y)
 
 # Initialize classifiers
