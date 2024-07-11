@@ -48,7 +48,7 @@ def plot_log_loss_curve(thresholds, log_losses, min_loss_threshold, min_loss_val
 
 if __name__ == "__main__":
     # Load and preprocess your data
-    input_file = "path/to/your/input_file.csv"  # Update this path
+    input_file = "../data/balanceddata.csv"  # Update this path
     data = load_data(input_file)
     
     drop_params = ["param1", "param2"]  # Update these parameters as needed
