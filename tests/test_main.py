@@ -13,8 +13,8 @@ class TestUtils(unittest.TestCase):
     def setUp(self):
         self.filepath = "../data/test_data.csv"
         self.data = load_data(self.filepath)
-        self.target_col = "isCherenkov"
-        self.drop_cols = ["isCherenkov"]
+        self.target_col = "Vector"
+        self.drop_cols = ["Vector"]
 
     def test_load_data(self):
         self.assertIsNotNone(self.data)
