@@ -12,8 +12,8 @@ This project demonstrates the use of ensemble classification methods to predict 
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+- [Citiation](#citiation)
+
 
 ## Introduction
 
@@ -47,6 +47,18 @@ You can install the required Python packages using pip:
 ```bash
 pip install numpy pandas scikit-learn lightgbm xgboost matplotlib
 ```
+# Usage
+git clone https://github.com/yourusername/yourrepository.git](https://github.com/eem-merve/ML-Classifiers
+cd src
+
+python log_loss_plot.py
+
+# Results
+
+The results of the classifiers are visualized using log loss curves. Each curve shows the log loss for different predicted probability thresholds. The script also identifies and marks the threshold that yields the minimum log loss for each classifier.
+
+The generated plots will be saved in the results directory.
+
 # Citation
 @article{tiras2024comprehensive,
   title={Comprehensive Machine Learning Model Comparison for Cherenkov and Scintillation Light Separation due to Particle Interactions},
