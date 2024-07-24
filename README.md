@@ -19,7 +19,7 @@ This project demonstrates the use of ensemble classification methods to predict 
 
 Cherenkov radiation is electromagnetic radiation emitted when a charged particle moves through a dielectric medium at a speed greater than the speed of light in that medium. This project aims to classify instances based on various features to determine if Cherenkov radiation is present.
 
-The project uses three classifiers:
+The project focuses on three classifiers:
 - LightGBM
 - XGBoost
 - Random Forest
