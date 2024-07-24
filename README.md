@@ -46,7 +46,7 @@ You can install the required Python packages using pip:
 
 ```bash
 pip install numpy pandas scikit-learn lightgbm xgboost matplotlib
-
+```
 # Citation
 @article{tiras2024comprehensive,
   title={Comprehensive Machine Learning Model Comparison for Cherenkov and Scintillation Light Separation due to Particle Interactions},
